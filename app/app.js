@@ -9,3 +9,5 @@ socket.onmessage = ({ data }) => {
 document.querySelector("baton").onClick = () => {
   socket.dispatchEvent("namaste");
 };
+
+//front end javascript app
